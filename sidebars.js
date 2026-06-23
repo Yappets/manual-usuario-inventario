@@ -14,11 +14,16 @@ module.exports = {
       type: 'category',
       label: 'Abastecimiento',
       items: [
-        'existencias/index',
+        'existencias/existencias',
         'existencias/relevar',
         'existencias/egresar',
         'existencias/ver-detalles',
       ],
+    },
+    {
+      type: 'doc',
+      id: 'devoluciones',
+      label: 'Devoluciones',
     },
   ],
 };
