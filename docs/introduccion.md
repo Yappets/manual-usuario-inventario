@@ -1,64 +1,69 @@
 ---
+id: introduccion
+title: Introducción al sistema
 sidebar_position: 1
-title: Introduccion
+slug: /
 ---
 
-# Introducción
+# Introducción al Sistema de Inventario
 
-La presente documentación fue elaborada con el objetivo de brindar a los trabajadores de **Aguas del Norte** una guía de uso clara y ordenada sobre el nuevo **Sistema de Gestión de Inventario**.
+## Bienvenido al Sistema de Inventario de Aguas del Norte
 
-Este manual reúne los conceptos principales y describe las funcionalidades necesarias para operar el sistema correctamente.
+El Sistema de Inventario es una herramienta que nos ayuda a **conocer y llevar un registro de los muebles, equipos y otros elementos que tiene la empresa**.
 
-## ¿En qué consiste el Sistema de Gestión de Inventario?
+Por ejemplo, nos permite saber cuántas sillas, mesas, escritorios o aires acondicionados hay, dónde se encuentran y en qué estado están.
 
-El **Sistema de Gestión de Inventario** es una plataforma web destinada a administrar el registro, control y trazabilidad de las unidades de productos pertenecientes a la empresa.
+De esta manera, podemos mantener organizada la información y consultar fácilmente los elementos registrados.
 
-Estas unidades pueden encontrarse en distintos espacios físicos o ubicaciones operativas, tales como:
+## ¿Qué podemos hacer con este sistema?
 
-* Depósitos.
-* Oficinas.
-* Fuentes de abastecimiento.
+El sistema cuenta con distintas opciones, según lo que necesitemos realizar.
 
-A continuación, se presentan los conceptos principales que serán utilizados a lo largo del manual.
+### 1. Registrar los productos que tenemos
 
-## Conceptos principales
+Desde la opción **[Relevar productos](./relevar-productos.md)** podemos registrar los elementos que encontramos en una oficina o en otro lugar de la empresa.
 
-### Existencia
+Por ejemplo, si en una oficina encontramos tres sillas y dos escritorios, podemos cargarlos en el sistema, indicar sus características y dejar registrado dónde están ubicados.
 
-Una **existencia** representa un  producto perteneciente a la empresa, el cual se encuentra registrado y contabilizado dentro del sistema.
+**Relevar significa registrar en el sistema los elementos que existen físicamente en un lugar.**
 
-Las existencias permiten conocer qué productos posee la organización, en qué cantidad se encuentran disponibles y cuál es su ubicación actual.
+### 2. Consultar los productos registrados
 
-## Asignación de productos a una ubicación
+Desde **[Detalle de Existencias](./detalle-existencias.md)** podemos consultar qué elementos se encuentran registrados en una oficina o en una fuente de abastecimiento.
 
-El sistema contempla dos formas principales de asignar unidades de productos a una oficina o a una fuente de abastecimiento.
+Por ejemplo, podemos seleccionar una oficina y ver qué productos tiene, cuántos hay y cuáles son sus características.
 
-### Egreso
+También podemos buscar un producto en particular.
 
-El **egreso** se utiliza cuando una o varias unidades de un producto provienen de un depósito y deben ser asignadas a una ubicación específica, como una oficina o una fuente de abastecimiento.
+### 3. Obtener listados de productos
 
-### Relevamiento
+Desde **[Reportes](./reportes-productos-organigrama.md)** podemos generar un listado con información de los productos registrados.
 
-El **relevamiento** se utiliza cuando una o varias unidades de un producto ya se encuentran físicamente en uso, pero no existe un registro previo de su ubicación dentro de un sistema.
+Podemos consultar, por ejemplo:
 
-## Ingreso de productos a depósito
+- Todos los productos de las oficinas de una unidad operativa, como Salta.
+- Los productos de una oficina determinada.
+- Un producto en particular, como las sillas, en una o varias oficinas.
 
-Además de la asignación de productos a una ubicación, el sistema contempla dos formas principales de registrar productos en un depósito.
+Estos listados nos permiten consultar la información de manera ordenada.
 
-### Ingreso
+### 4. Incorporar oficinas al sistema
 
-El **ingreso** se utiliza cuando la empresa adquiere nuevos productos y estos son incorporados a un depósito. El mismo debe entenderse como el punto de partida de las unidades que se encuentran disponibles en depósito, y no como una operación que el usuario deba realizar manualmente.
+Desde **[Oficinas](./importar-oficinas.md)** podemos incorporar los espacios de trabajo que fueron registrados previamente mediante la aplicación de Relevamiento de Oficinas.
 
-### Devolución
+La información llega en un archivo que contiene los datos de las oficinas y los sectores de la empresa que las utilizan.
 
-La **devolución** se utiliza cuando un producto que había sido egresado previamente retorna a un depósito.
+En esta pantalla podemos seleccionar ese archivo, revisar su contenido y confirmar qué oficinas se incorporarán.
 
-## Diagrama general de los movimientos del inventario
+**No es necesario abrir ni modificar el archivo.** El sistema se encarga de leerlo y mostrar la información para su revisión.
 
-El siguiente diagrama resume de manera general los principales movimientos contemplados en el Sistema de Gestión de Inventario y la lógica de uso asociada a cada uno de ellos.
+## ¿Por dónde empezamos?
 
-![Diagrama de flujo de los movimientos del inventario](/img/diagrama-flujo-introduccion.png)
+Para utilizar el sistema, simplemente elegimos la opción que corresponda a lo que necesitamos hacer.
 
-## Consideraciones
+- **¿Queremos registrar sillas, mesas u otros elementos?** Ingresamos a [Relevar productos](./relevar-productos.md).
+- **¿Queremos saber qué elementos hay en una oficina?** Ingresamos a [Detalle de Existencias](./detalle-existencias.md).
+- **¿Necesitamos un listado de los productos?** Ingresamos a [Reportes](./reportes-productos-organigrama.md).
+- **¿Necesitamos incorporar oficinas registradas desde la otra aplicación?** Ingresamos a [Oficinas](./importar-oficinas.md).
 
-Los conceptos mencionados anteriormente serán utilizados en los próximos apartados del manual, donde se explicarán las funcionalidades correspondientes a la consulta de existencias, egreso de productos, relevamiento, devolución y visualización de detalles.
+En las siguientes secciones de este manual encontraremos las instrucciones, acompañadas de imágenes, para realizar cada una de estas tareas paso a paso.
